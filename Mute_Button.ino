@@ -31,6 +31,7 @@ void loop()
     if ((millis() - last_debounce_time) > debounce_delay) 
     {
 
+      // WINDOWS 11: WIN + Alt + K 
       Keyboard.press(KEY_LEFT_CTRL);
       Keyboard.press(KEY_LEFT_SHIFT);
       Keyboard.press(';');
